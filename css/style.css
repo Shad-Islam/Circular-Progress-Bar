@@ -44,7 +44,7 @@ body{
 
 #number{
     color: #555;
-    font-weight: 600px ;
+    font-weight: 800;
 }
 
 circle{
@@ -58,7 +58,8 @@ circle{
 
 @keyframes animation {
     100%{
-        stroke-dashoffset: 234;
+        stroke-dashoffset: 108;
+        /* 450-450*0.76 */
     }
 }
 
